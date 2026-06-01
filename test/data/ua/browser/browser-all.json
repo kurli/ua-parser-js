@@ -2453,6 +2453,26 @@
         }
     },
     {
+        "desc"    : "OpenHarmony ArkWeb",
+        "ua"      : "Mozilla/5.0 (PC; OpenHarmony 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 ArkWeb/6.1.0.123",
+        "expect"  :
+        {
+            "name"    : "ArkWeb",
+            "version" : "6.1.0.123",
+            "major"   : "6"
+        }
+    },
+    {
+        "desc"    : "Huawei Browser on OpenHarmony",
+        "ua"      : "Mozilla/5.0 (PC; OpenHarmony 6.1; Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 ArkWeb/6.1.0.105 HuaweiBrowser/6.1.1.341",
+        "expect"  :
+        {
+            "name"    : "Huawei Browser",
+            "version" : "6.1.1.341",
+            "major"   : "6"
+        }
+    },
+    {
         "desc"    : "Iridium",
         "ua"      : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Iridium/43.8 Safari/537.36 Chrome/43.0.2357.132",
         "expect"  :

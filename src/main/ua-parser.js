@@ -434,6 +434,12 @@
             ], [[NAME, /(.+)/, '$1' + SUFFIX_BROWSER], VERSION], [              // Oculus/Sailfish/VivoBrowser/PicoBrowser
             / HBPC\/([\w\.]+)/                                                  // Huawei Browser
             ], [VERSION, [NAME, HUAWEI + SUFFIX_BROWSER]], [
+            /huaweibrowser\/([\w\.]+)/i                                         // Huawei Browser
+            ], [VERSION, [NAME, HUAWEI + SUFFIX_BROWSER]], [
+            / HBPC\/([\w\.]+)/                                                  // Huawei Browser
+            ], [VERSION, [NAME, HUAWEI + SUFFIX_BROWSER]], [
+            /(arkweb)\/([\w\.]+)/i,                                             // ArkWeb
+            ], [NAME, VERSION], [                            
             /samsungbrowser\/([\w\.]+)/i                                        // Samsung Internet
             ], [VERSION, [NAME, SAMSUNG + ' Internet']], [
             /metasr[\/ ]?([\d\.]+)/i                                            // Sogou Explorer
@@ -975,6 +981,11 @@
         ],
 
         os : [[
+            // HarmonyOS
+            /(harmonyos)[\/ ]?([\d\.]*)/i,                                      
+            // OpenHarmony
+            /(openharmony)[\/ ]?([\d\.]*)/i,
+            ], [NAME, VERSION], [
 
             // Windows
             /(windows nt) (6\.[23]); arm/i                                      // Windows RT
@@ -1016,7 +1027,6 @@
             ], [VERSION, NAME], [                                               
             /(ubuntu) ([\w\.]+) like android/i                                  // Ubuntu Touch
             ], [[NAME, /(.+)/, '$1 Touch'], VERSION], [
-            /(harmonyos)[\/ ]?([\d\.]*)/i,                                      // HarmonyOS
                                                                                 // Android/Blackberry/WebOS/QNX/Bada/RIM/KaiOS/Maemo/MeeGo/S40/Sailfish OS/OpenHarmony/Tizen
             /(android|bada|blackberry|kaios|maemo|meego|openharmony|qnx|rim tablet os|sailfish|series40|symbian|tizen)\w*[-\/\.; ]?([\d\.]*)/i
             ], [NAME, VERSION], [

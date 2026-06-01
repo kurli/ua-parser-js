@@ -125,6 +125,7 @@ export const BrowserName: Readonly<{
     OPERA_NEON: 'Opera Neon',
     OPERA_TABLET: 'Opera Tablet',
     OPERA_TOUCH: 'Opera Touch',
+    OPENHARMONY_WEBVIEW: 'OpenHarmony WebView',
     OTTER: 'Otter',
     OVI: 'OviBrowser',
     PALEMOON: 'PaleMoon',

@@ -7,5 +7,14 @@
             "name"    : "OpenHarmony",
             "version" : "4.1"
         }
+    },
+    {
+        "desc"    : "OpenHarmony on Desktop",
+        "ua"      : "Mozilla/5.0 (PC; OpenHarmony 6.1; Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 ArkWeb/6.1.0.105 HuaweiBrowser/6.1.1.341",
+        "expect"  :
+        {
+            "name"    : "OpenHarmony",
+            "version" : "6.1"
+        }
     }
 ]

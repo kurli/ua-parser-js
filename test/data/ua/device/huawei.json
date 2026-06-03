@@ -979,5 +979,26 @@
             "model": "BKK-LX2",
             "type": "mobile"
         }
+    },
+    {
+        "desc": "HarmonyOS Next Desktop",
+        "ua": "Mozilla/5.0 (PC; OpenHarmony 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 ArkWeb/6.1.0.105",
+        "expect": {
+            "type": "desktop"
+        }
+    },
+    {
+        "desc": "HarmonyOS Next Phone",
+        "ua": "Mozilla/5.0 (Phone; OpenHarmony 6.1; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 ArkWeb/6.1.0.119 Mobile",
+        "expect": {
+            "type": "mobile"
+        }
+    },
+    {
+        "desc": "HarmonyOS Next Tablet",
+        "ua": "Mozilla/5.0 (Tablet; OpenHarmony 6.1; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 ArkWeb/6.1.0.119 Mobile",
+        "expect": {
+            "type": "tablet"
+        }
     }
 ]

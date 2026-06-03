@@ -344,6 +344,15 @@ describe('is() utility method', function () {
         assert.strictEqual(browser.major, '6');
     });
 
+    it('Should detect HuaweiBrowser on OpenHarmony when both ArkWeb and HuaweiBrowser with Android compat are present on mobile', function () {
+        const mixedUa = 'Mozilla/5.0 (Phone; OpenHarmony 6.1; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 ArkWeb/6.1.0.119 Mobile HuaweiBrowser/6.1.1.352';
+        const browser = new UAParser(mixedUa).getBrowser();
+
+        assert.strictEqual(browser.name, 'Huawei Browser');
+        assert.strictEqual(browser.version, '6.1.1.352');
+        assert.strictEqual(browser.major, '6');
+    });
+
     it('Should refrain from "undefined" until all properties are checked', function () {
         assert.strictEqual(uap.getDevice().is("undefined"), false);
         assert.strictEqual(uap.getDevice().is("Apple"), true);

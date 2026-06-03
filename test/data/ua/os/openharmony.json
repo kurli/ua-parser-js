@@ -9,8 +9,53 @@
         }
     },
     {
-        "desc"    : "OpenHarmony on Desktop",
+        "desc"    : "OpenHarmony Huawei Browser on Desktop",
         "ua"      : "Mozilla/5.0 (PC; OpenHarmony 6.1; Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 ArkWeb/6.1.0.105 HuaweiBrowser/6.1.1.341",
+        "expect"  :
+        {
+            "name"    : "OpenHarmony",
+            "version" : "6.1"
+        }
+    },
+    {
+        "desc"    : "OpenHarmony WebView on Desktop",
+        "ua"      : "Mozilla/5.0 (PC; OpenHarmony 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 ArkWeb/6.1.0.105",
+        "expect"  :
+        {
+            "name"    : "OpenHarmony",
+            "version" : "6.1"
+        }
+    },
+    {
+        "desc"    : "OpenHarmony ArkWeb on phone",
+        "ua"      : "Mozilla/5.0 (Phone; OpenHarmony 6.1; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 ArkWeb/6.1.0.119 Mobile",
+        "expect"  :
+        {
+            "name"    : "OpenHarmony",
+            "version" : "6.1"
+        }
+    },
+    {
+        "desc"    : "OpenHarmony Huawei Browser on phone",
+        "ua"      : "Mozilla/5.0 (Phone; OpenHarmony 6.1; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 ArkWeb/6.1.0.119 Mobile HuaweiBrowser/6.1.1.352",
+        "expect"  :
+        {
+            "name"    : "OpenHarmony",
+            "version" : "6.1"
+        }
+    },
+    {
+        "desc"    : "OpenHarmony ArkWeb on tablet",
+        "ua"      : "Mozilla/5.0 (Tablet; OpenHarmony 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 ArkWeb/6.1.0.117 Mobile",
+        "expect"  :
+        {
+            "name"    : "OpenHarmony",
+            "version" : "6.1"
+        }
+    },
+    {
+        "desc"    : "OpenHarmony Huawei Browser on tablet",
+        "ua"      : "Mozilla/5.0 (Tablet; OpenHarmony 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 ArkWeb/6.1.0.117 Mobile HuaweiBrowser/6.1.4.321",
         "expect"  :
         {
             "name"    : "OpenHarmony",

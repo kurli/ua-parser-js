@@ -436,10 +436,8 @@
             ], [VERSION, [NAME, HUAWEI + SUFFIX_BROWSER]], [
             /huaweibrowser\/([\w\.]+)/i                                         // Huawei Browser
             ], [VERSION, [NAME, HUAWEI + SUFFIX_BROWSER]], [
-            / HBPC\/([\w\.]+)/                                                  // Huawei Browser
-            ], [VERSION, [NAME, HUAWEI + SUFFIX_BROWSER]], [
-            /(arkweb)\/([\w\.]+)/i,                                             // ArkWeb
-            ], [NAME, VERSION], [                            
+            /(arkweb)\/([\w\.]+)/i                                              // ArkWeb
+            ], [NAME, VERSION], [
             /samsungbrowser\/([\w\.]+)/i                                        // Samsung Internet
             ], [VERSION, [NAME, SAMSUNG + ' Internet']], [
             /metasr[\/ ]?([\d\.]+)/i                                            // Sogou Explorer
@@ -612,6 +610,9 @@
             /(?:huawei) ?([-\w ]+)[;\)]/i,
             /\b(nexus 6p|\w{2,4}e?-[atu]?[ln][\dx][\dc][adnt]?)\b(?!.+d\/s)/i
             ], [MODEL, [VENDOR, HUAWEI], [TYPE, MOBILE]], [
+
+            /\(pc; openharmony/i
+            ], [[TYPE, 'desktop']], [
 
             // Xiaomi
             /oid[^\)]+; (2[\dbc]{4}(182|283|rp\w{2})[cgl]|m2105k81a?c)(?: bui|\))/i,
@@ -982,9 +983,9 @@
 
         os : [[
             // HarmonyOS
-            /(harmonyos)[\/ ]?([\d\.]*)/i,                                      
+            /(harmonyos)[\/ ]?([\d\.]*)/i,
             // OpenHarmony
-            /(openharmony)[\/ ]?([\d\.]*)/i,
+            /(openharmony)[\/ ]?([\d\.]*)/i
             ], [NAME, VERSION], [
 
             // Windows
@@ -1027,6 +1028,7 @@
             ], [VERSION, NAME], [                                               
             /(ubuntu) ([\w\.]+) like android/i                                  // Ubuntu Touch
             ], [[NAME, /(.+)/, '$1 Touch'], VERSION], [
+            /(harmonyos)[\/ ]?([\d\.]*)/i,                                      // HarmonyOS
                                                                                 // Android/Blackberry/WebOS/QNX/Bada/RIM/KaiOS/Maemo/MeeGo/S40/Sailfish OS/OpenHarmony/Tizen
             /(android|bada|blackberry|kaios|maemo|meego|openharmony|qnx|rim tablet os|sailfish|series40|symbian|tizen)\w*[-\/\.; ]?([\d\.]*)/i
             ], [NAME, VERSION], [

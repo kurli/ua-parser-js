@@ -1,20 +1,20 @@
 [
     {
-        "desc"    : "ArkWeb",
+        "desc"    : "Blink (OpenHarmony ArkWeb)",
         "ua"      : "Mozilla/5.0 (Phone; OpenHarmony 4.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 ArkWeb/4.1.6.1 Mobile",
         "expect"  :
         {
-            "name"    : "ArkWeb",
-            "version" : "4.1.6.1"
+            "name"    : "Blink",
+            "version" : "114.0.0.0"
         }
     },
     {
-        "desc"    : "ArkWeb",
+        "desc"    : "Blink (OpenHarmony ArkWeb + HuaweiBrowser)",
         "ua"      : "Mozilla/5.0 (PC; OpenHarmony 6.1; Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 ArkWeb/6.1.0.105 HuaweiBrowser/6.1.1.341",
         "expect"  :
         {
-            "name"    : "ArkWeb",
-            "version" : "6.1.0.105"
+            "name"    : "Blink",
+            "version" : "132.0.0.0"
         }
     },
     {

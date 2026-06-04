@@ -960,9 +960,6 @@
             /windows.+ edge\/([\w\.]+)/i                                       // EdgeHTML
             ], [VERSION, [NAME, EDGE+'HTML']], [
 
-            /(arkweb)\/([\w\.]+)/i                                              // ArkWeb
-            ], [NAME, VERSION], [
-
             /webkit\/537\.36.+chrome\/(?!27)([\w\.]+)/i                         // Blink
             ], [VERSION, [NAME, 'Blink']], [
 

@@ -325,7 +325,6 @@ const Vendor = DeviceVendor;
 
 const EngineName = Object.freeze({
     AMAYA: 'Amaya',
-    ARKWEB: 'ArkWeb',
     BLINK: 'Blink',
     DILLO: 'Dillo',
     EDGEHTML: 'EdgeHTML',

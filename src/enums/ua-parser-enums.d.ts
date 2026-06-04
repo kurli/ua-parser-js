@@ -329,7 +329,6 @@ export const Vendor: typeof DeviceVendor;
 
 export const EngineName: Readonly<{
     AMAYA: 'Amaya',
-    ARKWEB: 'ArkWeb',
     BLINK: 'Blink',
     DILLO: 'Dillo',
     EDGEHTML: 'EdgeHTML',
